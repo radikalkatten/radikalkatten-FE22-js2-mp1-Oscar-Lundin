@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <p>Ditt namn</p>
+
+      <input type="text" name="name" id="nameInput" />
+
+      <button id="nameButton" name="name">Gå vidare</button>
+
+      <h1></h1>
+
+      <button id="startGame" class="inactiveGame">Börja spela</button>
+    </div>
+
+    <div class="inactiveGame" id="buttonContainer">
+      <button id="userSten">Sten</button>
+
+      <button id="userSax">Sax</button>
+
+      <button id="userPåse">Påse</button>
+    </div>
+    <div>
+      <button id="resetButton" class="inactiveGame">Kör igen?</button>
+    </div>
+    <div>
+      <p id="userChoice"></p>
+      <p id="computerChoice"></p>
+      <p id="roundWinner"></p>
+      <h2 id="yourPoints" class="inactiveGame">Dina poäng:</h2>
+      <h2 id="computerPoints" class="inactiveGame">Datorns poäng:</h2>
+      <marquee behavior="" direction="left" id="result"></marquee>
+    </div>
+    <div id="highscoresdiv"></div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.inactiveGame {
+  display: none;
+}
+
+#result {
+  background-color: orange;
+}
